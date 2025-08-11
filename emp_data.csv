@@ -1,0 +1,21 @@
+EmployeeID,FirstName,LastName,Department,Position,Salary,DateOfJoining
+1,John,Doe,IT,Software Engineer,75000,2015-06-15
+2,Jane,Smith,HR,HR Manager,65000,2017-03-12
+3,Michael,Brown,Finance,Accountant,58000,2018-11-01
+4,Emily,Davis,Marketing,Marketing Specialist,60000,2019-07-23
+5,Chris,Wilson,IT,System Administrator,70000,2016-09-10
+6,Sarah,Johnson,Sales,Sales Executive,55000,2020-01-15
+7,David,Lee,Operations,Operations Manager,72000,2014-05-20
+8,Laura,Garcia,IT,Data Analyst,68000,2018-08-30
+9,James,Martinez,Finance,Financial Analyst,62000,2019-02-14
+10,Emma,Lopez,HR,Recruiter,50000,2021-06-01
+11,Daniel,Hernandez,Marketing,Content Writer,48000,2020-10-05
+12,Olivia,Clark,Sales,Sales Manager,75000,2015-12-19
+13,Liam,Walker,Operations,Logistics Coordinator,52000,2017-04-25
+14,Ava,Hall,IT,UI/UX Designer,67000,2019-09-12
+15,Noah,Allen,Finance,Auditor,59000,2018-03-18
+16,Isabella,Young,HR,HR Assistant,45000,2021-11-08
+17,Ethan,Hernandez,Marketing,SEO Specialist,56000,2020-06-22
+18,Sophia,King,Sales,Account Manager,63000,2016-02-14
+19,Mason,Wright,Operations,Warehouse Supervisor,51000,2017-08-03
+20,Mia,Scott,IT,DevOps Engineer,78000,2015-04-11
