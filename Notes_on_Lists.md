@@ -55,3 +55,47 @@ my_list[index]
 
 #### List of lists
 - A list of ists is a list in which the items are other lists.
+- To access the item in the list of lists, we use two indexes.
+- A list of lists is also called as two-dimensional list (matrix), we can think of the data as columns and rows.
+
+
+#### More list skills
+1. count(item)
+    - Returns the number of occurrences of the specified item.
+
+2. reverse()
+    - Reverses the order of the items in the list.
+
+3. sort([key=function][, reverse=True/False])
+    - Sorts the items in the list in ascending order in its place.
+    - The optional key argument specifies a function to be called on each item before sorting.
+
+- A built-in function: sorted(list[, key=function])
+    - Returns a new list consisting of the sorted items of the original list.
+    - The optional key arguments specifies the function to be called on each item before sorting.
+
+
+- Two built-in functions
+    1. min(list)
+        - Returns the minimum value in the list.
+    2. max(list)
+        - Returns the maximum value in the list.
+
+
+- Two functions from random module:
+    1. choice(list)
+        - Returns a random item from the list.
+    2. shuffle(list)
+        - Randomly shuffles the items in the list.
+
+#### Copying lists
+- The assignment operator makes a shallow copy of a list, so both list variables refer to the same list.
+- In contrast, the deepcopy() function of the copy module makes a deep copy of the list variables refer to the two different lists.
+
+Syntax:
+```
+import copy
+new_list = copy.deepcopy(list)
+```
+- The deep copy of the list is a separate list with no relation to the original.
+
