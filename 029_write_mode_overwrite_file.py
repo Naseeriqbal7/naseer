@@ -1,0 +1,5 @@
+f = open('quotes.txt', 'w')
+f.write('The only limit to our realization of tomorrow is our doubts of today.\n')
+f.write('The future belongs to those who believe in the beauty of their dreams.\n')
+f.write('Where there is love there is life.\n')
+f.close()

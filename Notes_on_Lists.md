@@ -99,3 +99,19 @@ new_list = copy.deepcopy(list)
 ```
 - The deep copy of the list is a separate list with no relation to the original.
 
+
+#### Slicing the list
+- We can slice a list to get a subset of the original list.
+- Syntax:
+    my_list[start:end:step]
+    By default, start is 0, and step is 1.
+    By default, end is exclusive, if we don't specify end then the last item is inclusive.
+
+
+#### Concatenating a list
+- We concatenate lists by using the + operator or the += operator
+
+
+#### List comprehension
+- We can generate items in a list using a for loop inside the list.
+new_list = [expression for item in list]
