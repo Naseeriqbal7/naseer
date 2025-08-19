@@ -1,0 +1,6 @@
+Python
+Data
+SQL
+Stats
+ML
+AI

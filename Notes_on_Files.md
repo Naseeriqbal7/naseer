@@ -51,3 +51,23 @@ open(file_name, mode)
     - If the file exists, this mode appends to the existing file.
 4. b - Binary
     - Use for binary files along with "r" or "w" mode.
+
+##### 'with' to close files automatically
+- Every file that we open must be closed.
+- When we use with statement to open a file, it automatically closes when the block ends.
+```
+with open(file_name, mode) as file:
+    block
+```
+
+##### The 'write' method
+```
+file_object.write(str)
+```
+
+##### Reading a file
+1. Use `for` loop to read line by line.
+2. read() - reads entire file as one string.
+3. readlines() - reads a file into a list, where each item is a line of the file.
+4. readline() - reads a single line from the file.
+
