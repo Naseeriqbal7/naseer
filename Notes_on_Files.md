@@ -71,3 +71,31 @@ file_object.write(str)
 3. readlines() - reads a file into a list, where each item is a line of the file.
 4. readline() - reads a single line from the file.
 
+### Working with CSV files
+- A comma-separated values (CSV) file stores tabular data in a text form.
+- Within CSV file, each line is a row that ends with a new line character, and each row contains one or more columns that are typically separated by a comma.
+- Rows are records, and columns are fields.
+- To work with CSV files, we use the `csv` module.
+
+#### Writing data to a CSV file
+- To write data to a csv file we have to use `writer()` function of the csv module to get writer object.
+```
+csv.writer(file_object)
+```
+- This writer object converts the data into comma-separated values.
+- After creating writer object we use writerows() method of the csv writer object to write to file_object.
+- **Note**: When we open a CSV file for reading or writing, we typically specify an argument name 'newline' with a value of an empty string. This enables universal newlines mode, so the reading and writing operations work correctly for all operating systems.
+
+#### Reading data from a CSV file
+- Use reader() function from the csv module to get reader object.
+```
+csv.reader(file_object)
+```
+- Then use `for` statement with the reader object to read the data in the file.
+
+
+#### CSV format specification
+- Optional arguments with reader() and writer() functions
+    - quotechar='"' -> specifies the character that's used to quote columsn\
+    - delimiter=',' -> specifies the character that's used to separate fields
+    - quoting=csv.QUOTE_MINIMAL -> specifies the quoting policy
