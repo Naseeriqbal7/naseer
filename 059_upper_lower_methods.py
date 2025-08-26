@@ -5,4 +5,4 @@ print(lower_text)
 # Output: abcdefgh1234dgh
 upper_text = text.upper()
 print(upper_text)
-
+# Output: ABCDEFGH1234DGH
